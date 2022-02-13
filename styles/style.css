@@ -139,6 +139,29 @@ footer{
     width: 95%;
 }
 
+.footer-dev>.heart{
+    display: inline-flex;
+    animation-name: beatHeart;
+    animation-duration: 0.8s;
+    animation-iteration-count: infinite;
+}
+@keyframes beatHeart {
+    0% {
+      transform: scale(1);
+    }
+    25% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
 
 /*Footer mobile*/
 @media screen and (max-width: 480px) {
@@ -198,6 +221,11 @@ footer{
 .post-image{
     width: 100%;
     
+}
+
+.post-image:hover{
+    transform: scale(1.06);
+    transition: all 1s;
 }
 
 .post-image-a{
@@ -280,6 +308,11 @@ footer{
 .icono-mail{
     display: block;
     margin: auto;
+}
+
+.icono-mail:hover{
+    transform: scale(1.06);
+    transition: all 1s;
 }
 
 /*Contacto: mobile*/
