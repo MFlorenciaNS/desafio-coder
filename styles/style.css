@@ -241,9 +241,9 @@ footer{
 
 .integrante { 
     display: flex;
-    flex-direction: row;
-    margin: 1% 0 1% 0;
-    align-items: center;
+    flex-direction: row; 
+    margin: 1% 0 1% 0; 
+    align-items: center; 
 }
 
 .integrante-1, .integrante-3, .integrante-5, .integrante-7{
