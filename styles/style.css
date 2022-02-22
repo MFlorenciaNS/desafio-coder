@@ -19,8 +19,6 @@
     --dark-violet: #4A005D;
 }
 
-
-
 /* Header */
 header{
     display: flex;
@@ -30,60 +28,42 @@ header{
 }
 
 /* Menu */
-.menu-nav{
-    width: 70%;
-    margin: 0 3% 0 10%;
-}
-.menu-ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    flex-wrap: wrap;  
-}
+
 .text-menu{
+    color: var(--violet-femi);
     font-family: var(--font-heading);
     font-size: 18 px;
-    text-decoration: none;
-    color: var(--violet-femi);
+    text-decoration: none;    
 }
 
 li{
-    margin: 0 1.5%;
+    margin: 0 3%;
 }
 
 .logo-femiciencia{
     margin: 10%;
 }
 
-/*Menu mobile*/
-@media screen and (max-width: 480px) {
-    .text-menu{
-        font-family: var(--font-heading);
-        font-size: 12 px;
-        text-decoration: none;
-        color: var(--dark-violet);
-    }
-    .logo-femiciencia{
-        width: 100%;
-    }
-    .menu-nav{
-        width: 70%;
-        margin: 0 3% 0 5%;
-    }
+.collapse-femi { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-/*Menu tablet*/
-@media screen and (min-width: 481px) and (max-width: 980px){
-    .menu-nav{
-        width: 70%;
-        margin: 0 3% 0 5%;
-    } 
-
-    .logo-femiciencia{
-    width: 100%;
-    }
+.navbar-femi{
+    margin-right: 10%; 
 }
+
+.navbar-light .navbar-toggler {
+    background-color: var(--green-background);
+    border-color: var(--green-femi);
+    border-width: 3px;
+}
+
+.navbar-light .navbar-toggler  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(63, 182, 176, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 
 /* Body */
 body{
@@ -196,7 +176,8 @@ footer{
 .index-section { 
     background-color: var(--lilac-background);
     padding: 2%;
-    margin: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     border: 2px dotted var(--violet-femi);
 }
 
@@ -299,6 +280,7 @@ footer{
 }
 
 /*Page: Contacto*/
+
 /*Contacto con freefrontend*/
 
 .get-in-touch {
@@ -372,6 +354,8 @@ footer{
     width:200px;
     cursor: pointer;
 }
+
+
 
 /*General media queries*/
 /*Main headings & texts size: mobile*/
