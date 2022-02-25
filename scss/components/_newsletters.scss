@@ -1,0 +1,14 @@
+/*newsletters*/
+@import '../base/variables';
+
+main {
+    section{
+        div{
+            .columna-1{
+                    &:hover{
+                        background-color: #C0D9BE;
+                    }
+            }
+        }
+    }
+}

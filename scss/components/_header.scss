@@ -1,0 +1,44 @@
+@import '../base/variables';
+/*header*/
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    nav {
+        .navbar-femi {
+            margin-right: 10%; 
+            .navbar-brand{
+                .logo-femiciencia {
+                    margin: 10%;
+                }
+            }
+            .button-femi{
+                background-color: $color-green-background;
+                border-color: $color-green-femi;
+                border-width: 3px;
+                .span-femi {
+                    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(63, 182, 176, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+                }
+            }
+            .collapse-femi{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-end;
+                .navbar-nav{
+                    .nav-item{
+                        margin: 0 3%;
+                        .text-menu{
+                            color: $color-violet-femi;
+                            font-family: $font-heading;
+                            font-size: 18 px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    
+}
