@@ -26,6 +26,14 @@ p {
     color: $color-green-yellow-femi;
 }
 
+.posts-heading-2 {
+    font-family: $font-heading;
+    font-size: 28px;
+    color: $color-green-yellow-femi;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
 /*General media queries*/
 /*Main headings & texts size: mobile*/
 @media screen and (max-width: 480px){
