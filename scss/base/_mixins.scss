@@ -1,6 +1,6 @@
-@mixin integrante{
-    display: flex;
-    flex-direction: row; 
-    margin: 1% 0 1% 0; 
-    align-items: center; 
+@mixin integrante ($flex, $direccion, $margen, $alineacion){
+    display: $flex;
+    flex-direction: $direccion; 
+    margin: $margen; 
+    align-items: $alineacion; 
 }

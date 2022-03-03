@@ -149,7 +149,7 @@ main .index-post-images .row-post div .post-image-a .post-image:hover {
 /*quienes somos*/
 main section div div .integrante {
   display: flex;
-  flex-direction: row;
+  flex-direction: center;
   margin: 1% 0 1% 0;
   align-items: center;
 }

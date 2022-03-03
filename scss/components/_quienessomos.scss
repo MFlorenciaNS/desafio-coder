@@ -7,7 +7,7 @@ main{
         div{
             div{
                 .integrante {
-                    @include integrante;
+                    @include integrante (flex, center, 1% 0 1% 0, center);
                     .image-integrante{
                         width: 150px;
                         height: 150px;
