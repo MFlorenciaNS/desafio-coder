@@ -1,3 +1,5 @@
+@import '../base/mixins';
+
 /*quienes somos*/
 
 main{
@@ -5,10 +7,7 @@ main{
         div{
             div{
                 .integrante {
-                    display: flex;
-                    flex-direction: row; 
-                    margin: 1% 0 1% 0; 
-                    align-items: center; 
+                    @include integrante;
                     .image-integrante{
                         width: 150px;
                         height: 150px;

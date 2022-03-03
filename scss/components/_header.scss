@@ -1,12 +1,10 @@
 @import '../base/variables';
 @import '../base/mapas';
+@import '../base/extends';
 
 /*header*/
 header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @extend %flexbox-sb;
     nav {
         .navbar-femi {
             margin-right: 10%; 
