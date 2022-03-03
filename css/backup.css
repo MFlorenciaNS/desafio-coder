@@ -5,7 +5,8 @@
 
 /* Fonts */
 :root{
-    
+    --font-paragraph: 'Roboto', sans-serif;
+    --font-heading: 'Arimo', sans-serif;
 }
 
 /* Colors */
@@ -71,7 +72,8 @@ body{
 
 /* Texts */
 p{
-    
+    font-family: var(--font-paragraph);
+    font-size: 15px;
 }
 
 /* Headings */
