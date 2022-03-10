@@ -125,8 +125,8 @@ footer .social-media .logo-social {
 }
 main .index-section {
   background-color: #D9D7F1;
-  padding: 2%;
-  margin: 3%;
+  padding: 2% 3% 2% 3%;
+  margin-bottom: 3%;
   border: 2px dotted #874F9D;
 }
 main .index-section .index-div .index-heading {
