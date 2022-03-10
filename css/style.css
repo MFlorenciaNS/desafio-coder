@@ -179,8 +179,39 @@ main section .podcast-div .iframe-podcast {
 }
 
 /*newsletters*/
+main section div .columna-1 {
+  padding: 2%;
+}
 main section div .columna-1:hover {
   background-color: #C0D9BE;
+}
+main section div .columna-1 .link-newsletters {
+  color: #874F9D;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.body-news-individuales {
+  background-color: #D9D7F1;
+}
+.body-news-individuales main section div .columna-news .preguntas-news {
+  text-align: center;
+  font-weight: bold;
+}
+.body-news-individuales main section div .columna-news .linea-divisoria {
+  height: 3px;
+  background-color: #3FB6B0;
+}
+.body-news-individuales main .boton-news-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+.body-news-individuales main .boton-news-div .boton-news-img:hover {
+  box-shadow: 0 4px 16px #b39ee2;
+  transition: all 0.2s ease;
 }
 
 /*contacto*/
@@ -280,7 +311,7 @@ p {
   color: #874F9D;
   font-size: 32px;
   text-align: center;
-  margin-bottom: 1%;
+  margin-bottom: 2%;
 }
 
 .newsletters-heading-2, .integrantes-heading-2 {
