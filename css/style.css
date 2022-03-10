@@ -170,14 +170,6 @@ main section div div .integrante .text-integrante {
   background-color: #ADCEAE;
 }
 
-/*podcast*/
-main section .podcast-div {
-  margin: 2% 3%;
-}
-main section .podcast-div .iframe-podcast {
-  width: 100%;
-}
-
 /*newsletters*/
 main section div .columna-1 {
   padding: 2%;
