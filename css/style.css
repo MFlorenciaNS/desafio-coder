@@ -345,5 +345,8 @@ p {
     font-size: 25px;
   }
 }
+.disclaimer {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */
