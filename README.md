@@ -5,6 +5,6 @@
 
 - 🌱 Estoy aprendiendo **HTML y CSS**
 
-💚 La web que estoy desarrollando es de Femiciencia, un proyecto de comunicación de la ciencia
+💚 La web que estoy desarrollando es de Femiciencia, un proyecto de comunicación de la ciencia con perspectiva de género.
 <p align="left">
 </p>
